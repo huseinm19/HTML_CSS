@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Zadatak</title>
+	
+	
+	<style type="text/css">
+	
+		body {
+			background-color: rgb(243, 236, 226);
+		}
+
+		header {
+			margin: 0 auto;
+			width: 940px;
+		}
+
+		footer {
+			background-color: #ACABA7;
+			padding: 15px;
+			color: white;
+			position:sticky;
+			width:100%;
+		}
+
+		.wrapper {
+			margin: 0 auto;
+			width: 940px;
+			background-color: whitesmoke;
+		}
+
+		div {
+			padding-bottom: 5px;
+		}
+
+		aside a {
+			font-weight: bold;
+			margin: 0 auto;
+			color: rgb(32, 56, 100);
+			text-decoration: none;
+		}
+
+		aside div {
+			padding: 20px 0 20px 15px;
+			border-bottom: 1px dotted lightgray;
+		}
+
+		.novosti {
+			display: inline-block;
+		}
+
+		hgroup h3,
+		.popular-services,
+		.contact-details h2 {
+			font-family: 'Tajawal', sans-serif;
+			color: rgb(32, 56, 100);
+		}
+
+		hgroup h2,
+		figcaption,
+		p,
+		label,
+		legend {
+			color: grey;
+		}
+		nav{
+			background-color:gray;
+			height:3%;
+			padding:5px;
+			margin-top:-5px;
+		}
+        nav ul{
+			list-style:none;
+			margin:0px;
+			padding-right:10px;
+		}
+        nav li{
+			display:inline;
+			padding-right:30px;
+		}
+	   #_upis ul{
+		   position:absolute;
+	   }
+	   #_upis ul li{
+		   display:none;
+	   }
+	   #_upis:hover ul li{
+		   display:block;
+		   width:100px;
+		   margin-left:50px;
+		}
+
+		#slikurina{
+			height:17%;
+		}
+		ul li a{
+		    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+			color:black;
+			font-weight: 1000;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+        .novosti{
+			
+			float:left;
+			width:70%;
+		}
+		.popular-services{
+			width:30%;
+			
+			float:left;
+		}
+		.novosti div{
+			float:left;
+			
+			width:40%;
+			height: 20%;
+		}
+		#prvaslika{
+			float:left;
+		}
+		#animacija2{
+			float:left;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header>
+			<img src="images/header.jpg" id="slikurina" alt="">
+
+			<nav>
+				<ul>
+					<li>
+						<a href="#" class="current">Fakultet</a>
+					</li>
+					<li id="_upis">
+						<a href="#">Upis</a>
+						<ul>
+							<li>
+								<a href="#">Šta upisati</a>
+							</li>
+							<li>
+								<a href="#">Način studiranja</a>
+							</li>
+							<li>
+								<a href="http://www.fit.ba" target="_blank">Cijene studija</a>
+							</li>
+							<li>
+								<a href="#">FAQ</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Studij</a>
+					</li>
+					<li>
+						<a href="#">Istraživanje</a>
+					</li>
+					<li>
+						<a href="#">Alumni</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<section class="novosti">
+			<article class="animacija1">
+				<figure id="prvaslika">
+					<img src="images/1.jpg" alt="Machine learning" />
+					<figcaption>Machine learning</figcaption>
+				</figure>
+
+				<div>
+
+					<hgroup>
+						<h2>AI and Machine Learning</h2>
+						<h3>Learning course - Mostar</h3>
+					</hgroup>
+					<p>Introductory level of AI and machine learning using Python as the main programming language.</p>
+				</div>
+			</article>
+			<article>
+				<figure id="animacija2" >
+					<img src="images/2.jpg" alt="Microsoft Office Specialist" />
+					<figcaption>Microsoft Office Specialist</figcaption>
+				</figure>
+				<div id="div2">
+					<hgroup>
+						<h2>Microsoft Office Specialist</h2>
+						<h3>World Championship</h3>
+					</hgroup>
+					<p>Drugo IT takmičenje u Bosni i Hercegovini kao dio Svjetskog Microsoft Office Specialist takmičenja.</p>
+
+				</div>
+			</article>
+			<section>
+				<article>
+					<!-- FORMA -->
+
+				</article>
+			</section>
+
+
+		</section>
+
+		<aside>
+			<section class="popular-services">
+				<h2>Najpopularniji servisi</h2>
+				<div>
+					<a href="">DLWMS sistem</a>
+				</div>
+				<div>
+					<a href="">Microsoft Imagine</a>
+				</div>
+				<div>
+					<a href="">Office 365</a>
+				</div>
+				<div>
+					<a href="">VPS</a>
+				</div>
+
+				<br>
+
+			</section>
+			<section class="contact-details">
+				<h2>Kontakt</h2>
+				<p>Fakultet informacijskih tehnologija
+					<br /> Univerzitet "Džemal Bijedić" Mostar
+					<br /> Sjeverni logor br. 12
+					<br />
+
+			</section>
+		</aside>
+		<footer>
+			&copy; Fakultet informacijskih tehnologija
+		</footer>
+	</div>
+	<!-- .wrapper -->
+</body>
+
+</html>
